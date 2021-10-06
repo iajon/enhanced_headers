@@ -1,0 +1,34 @@
+h1 {
+    /* Display */
+    display: inline-block;
+    padding: 5px;
+
+    /* Color */
+    color: dodgerblue;
+    background-color: lightgray;
+
+    /* Animation */
+    animation: blinker 2s linear infinite;
+
+    /* Interaction */
+    user-select: none;
+}
+
+h1:hover {
+    /* Color (invert) */
+    color: lightgray;
+    background-color: dodgerblue;
+
+    /* Animation */
+    animation: none;
+
+    /* Interaction */
+    cursor: pointer;
+}
+
+/* Blinker configuration */
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

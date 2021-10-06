@@ -1,0 +1,8 @@
+name: Enhanced Headers
+type: theme
+description: A theme that drastically reduces header legibility
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - enhanced_headers/global-styling
